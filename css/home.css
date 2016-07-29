@@ -18,6 +18,10 @@ body:before {
     background: rgba(0, 0, 0, 0.5);
 }
 
+a {
+	text-decoration: none;
+}
+
 #name {
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5em;
