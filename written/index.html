@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>{CodeVault}</title>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway|Life+Savers' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="../css/master.css" charset="utf-8">
 	<link rel="stylesheet" href="../css/menu.css" charset="utf-8">
 	<link rel="stylesheet" href="this.css" charset="utf-8">
@@ -20,9 +20,9 @@
 		<div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu"
 			style="float:right;">
 			<ul class="pure-menu-list">
-				<li id="code" class="pure-menu-item active"><a href="#" class="pure-menu-link">{CodeVault}</a></li>
+				<li id="code" class="pure-menu-item"><a href="#" class="pure-menu-link">{CodeVault}</a></li>
 				<li id="design" class="pure-menu-item"><a href="http://ashnehete.in/design" class="pure-menu-link">Design</a></li>
-				<li id="written" class="pure-menu-item"><a href="http://ashnehete.in/written" class="pure-menu-link">Written</a></li>
+				<li id="written" class="pure-menu-item active"><a href="http://ashnehete.in/written" class="pure-menu-link">Written</a></li>
 				<li id="filmistan" class="pure-menu-item"><a href="http://ashnehete.in/filmistan" class="pure-menu-link">Filmistan</a></li>
 			</ul>
 		</div>
@@ -32,21 +32,13 @@
 	<div class="container">
 		<!-- START Title -->
 		<div id="title">
-			<div id="heading">{CodeVault}</div>
+			<div id="heading">Written</div>
 		</div>
 		<!-- END Title -->
-
-		<!-- START Main Content -->
-		<div class="post">
-			<span class="head">CYKLO</span>
-			<hr>
-			<span class="body">Cyklo is an automated cycle renting solution.</span>
-		</div>
-		<!-- END Main Content -->
 	</div>
 
-
-
+	<script src="model.js" charset="utf-8"></script>
+	<script src="../js/render.js" charset="utf-8"></script>
 
 	<script>
 	(function (window, document) {

@@ -29,5 +29,25 @@ body {
 
 .head {
 	padding: 10px;
-	font-size: 22pt;
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.body {
+
+}
+
+.content {
+	text-align: justify;
+	margin-left: 10px;
+	font-size: 1.2rem;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.9rem;
 }
