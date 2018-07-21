@@ -1,0 +1,42 @@
+:root {
+    --color-code: #27D3DB;
+    --color-design: #F64747;
+    --color-written: #F89406;
+    --color-film: #2ECC71;
+}
+
+.text-code {
+    color: var(--color-code) !important;
+}
+
+.text-design {
+    color: var(--color-design) !important;
+}
+
+.text-written {
+    color: var(--color-written) !important;
+}
+
+.text-film {
+    color: var(--color-film) !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+[data-type="code"] {
+    border-left: 4px solid var(--color-code);
+}
+
+[data-type="design"] {
+    border-left: 4px solid var(--color-design);
+}
+
+[data-type="written"] {
+    border-left: 4px solid var(--color-written);
+}
+
+[data-type="film"] {
+    border-left: 4px solid var(--color-film);
+}

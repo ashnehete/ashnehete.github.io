@@ -1,0 +1,66 @@
+body {
+    background-image: url("../img/bg-star.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 60%;
+    font-family: 'Raleway', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: black;
+}
+
+header {
+    text-align: center;
+    color: white;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+header small {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+main {
+    max-width: 700px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+main .heading {
+    font-size: 2em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 -1px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+p.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    margin: 0 0 5px 0;
+}
+
+[data-type="design"] p.title {
+    text-decoration-color: var(--color-design);
+}
+
+.full-row {
+    grid-column: 1 / -1;
+}
