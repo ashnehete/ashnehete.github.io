@@ -1,9 +1,7 @@
 body {
-    background-image: url("../img/bg-star.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center 60%;
-    font-family: 'Raleway', sans-serif;
+    /* background-image: url("../img/dark-grey-terrazzo.png"); */
+    background-color: #008b8b;
+    font-family: 'Open Sans', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
     color: black;
@@ -11,9 +9,11 @@ body {
 
 header {
     text-align: center;
-    color: white;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    max-width: 700px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header h1 {
@@ -24,9 +24,13 @@ header h1 {
 }
 
 header small {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+}
+
+header div {
+    margin: 20px 10px;
 }
 
 main {
