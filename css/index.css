@@ -1,7 +1,7 @@
 body {
     /* background-image: url("../img/dark-grey-terrazzo.png"); */
     background-color: #008b8b;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     max-width: 100%;
     overflow-x: hidden;
     color: black;
@@ -25,17 +25,13 @@ header h1 {
 }
 
 header small {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
 header div {
     margin: 20px 10px;
-}
-
-a {
-    color: #008b8b;
 }
 
 main {
