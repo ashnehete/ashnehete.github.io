@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -20,11 +20,11 @@
 
 nav {
     /* fixed width at 25% */
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
 }
 
@@ -36,11 +36,11 @@ nav {
 
 nav img {
     width: 100%;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 nav>header {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 nav>header>small {
@@ -48,19 +48,19 @@ nav>header>small {
 }
 
 nav p {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #social {
     width:100%;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 #social i {
     font-size: 2em;
-    margin: 3px;
+    margin: 5px;
 }
 
 #categories {
@@ -68,12 +68,22 @@ nav p {
     justify-content: space-between;
 }
 
+#highlights {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#highlights > a:not(:first-child) {
+    margin-top: 10px;
+}
+
 a.btn {
     text-decoration: none;
 }
 
 .btn {
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
     color: white;
     cursor: pointer;
@@ -104,6 +114,10 @@ a.btn {
 
 .bg-film {
     background-color: var(--film)
+}
+
+.bg-resume {
+    border: 1px dashed #ccc;
 }
 
 main {
