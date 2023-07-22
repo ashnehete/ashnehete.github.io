@@ -1,71 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aashish Nehete</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <title>Aashish Nehete</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
-    <div class="container">
-        <div class="wrapper">
-            <header>
-                <h1>Aashish Nehete</h1>
-                <small>Amherst, MA, USA</small>
-            </header>
-            <div id="profile"><img src="images/dp.jpeg" alt="Profile"></div>
-            <p id="occupation"><strong>MSCS '24 at University of Massachutsetts Amherst</strong></p>
-            <a href="resume/Aashish Nehete Resume.pdf" target="_blank" class="btn btn-inverse bg-resume">RESUME</a>
-            <p>I'm a <strong>computer engineer</strong> passionate about the cloud and frontend design.</p>
-            <p>Though ultimately, I am a student: always curious, always learning.</p>
-            <div id="highlights">
-                <a href="https://ashnehete.in/mapreducejs/" target="_blank">mapreducejs</a>
-                <a href="https://ashnehete.in/MapReduce-IndianRailwaysTimeTable/" target="_blank">Analysis of Indian
-                    Railways Timetable</a>
-                <a href="https://ashnehete.in/what-the-heck-is/" target="_blank">What the heck is?</a>
-            </div>
-            <div id="categories">
-                <a href="http://github.com/ashnehete/" target="_blank" class="btn bg-developer">DEVELOPER</a>
-                <a href="https://medium.com/@ashnehete" target="_blank" class="btn bg-writer">WRITER</a>
-                <a href="https://www.youtube.com/playlist?list=PLQQp-IbY4nLMsA4YAWKZqexojX-QnEF7W" target="_blank"
-                    class="btn bg-film">FILM MAKER</a>
-                <a href="https://thelogobaker.tumblr.com/" target="_blank" class="btn bg-designer">DESIGNER</a>
-            </div>
-            <div id="highlights">
-                stories and poems on <a href="https://www.wattpad.com/user/ashnehete" target="_blank">wattpad</a>
-            </div>
-            <div id="social">
-                <a href="http://github.com/ashnehete/" target="_blank" style="color:#333"><i
-                        class="fab fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/ashnehete/" target="_blank" style="color:#0077B5"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/ashnehete" target="_blank" style="color:#1DA1F2"><i
-                        class="fab fa-twitter-square"></i></a>
-                <a href="mailto:hello@ashnehete.in" target="_blank" style="color:#333"><i
-                        class="fas fa-envelope-square"></i></a>
-            </div>
+<div class="parent">
+    <div class="left">
+        <span class="username text--gradient">ashnehete</span>
+        <span class="name">Aashish Nehete</span>
+        <p class="about">MSCS'24 at University of Massachusetts Amherst</p>
+        <p class="about">I'm a computer engineer passionate about the <strong>cloud computing</strong> and <strong>frontend
+            design</strong></p>
+        <div class="links">
+            <a href="/resume/Aashish%20Nehete%20Resume.pdf" target="_blank" class="slash">resume</a>
+            <a href="/software" class="slash">software</a>
+            <a href="https://thelogobaker.tumblr.com/" target="_blank" class="slash">design</a>
+            <a href="/writing" class="slash">writing</a>
+            <a href="/film" class="slash">film</a>
         </div>
     </div>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-96631590-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-96631590-1');
-    </script>
-
+    <div class="right">
+        <img class="display" src="dp.jpeg" alt="Himachal Pradesh, India">
+        <span class="caption">Himachal Pradesh, India</span>
+    </div>
+</div>
+<footer>
+    <a href="http://github.com/ashnehete/" target="_blank"><img src="/assets/github.svg" alt="github.com"></a>
+    <a href="https://www.linkedin.com/in/ashnehete/" target="_blank"><img src="/assets/linkedin.svg" alt="linkedin.com"></a>
+    <a href="mailto:hello@ashnehete.in" target="_blank"><img src="/assets/email.svg" alt="gmail.com"></a>
+</footer>
 </body>
-
 </html>
