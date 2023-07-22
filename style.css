@@ -1,11 +1,12 @@
 :root {
-    /*--primary-blue: #0039e3;*/
-    --primary-blue: #333333;
-    /*--secondary-blue: #7fc1ff;*/
-    --secondary-blue: #7F7F7F;
     --text: #333333;
     --text-light: #aaa;
     --grey: #3333;
+
+    --theme-value: 102, 158, 253;
+    --theme: rgb(var(--theme-value));
+    --theme-light: rgba(var(--theme-value), 0.4);
+    --theme-lightest: rgba(var(--theme-value), 0.05);
 
     --width: 1000px;
     --radius: 16px;
@@ -15,6 +16,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: var(--text);
 }
 
 html {
@@ -22,7 +24,7 @@ html {
 }
 
 body {
-    background: #eee;
+    background: var(--theme-lightest);
 }
 
 a {
@@ -69,8 +71,8 @@ img.display {
 }
 
 .text--gradient {
-    background: var(--primary-blue);
-    background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+    background: var(--theme);
+    background: linear-gradient(90deg, var(--theme) 50%, var(--theme-light) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -165,16 +167,17 @@ header {
 }
 
 .card {
+    --color: var(--theme-light);
     padding: 20px;
     border-radius: var(--radius);
-    box-shadow: 5px 5px 0 0 var(--grey);
-    border: var(--grey) 1px solid;
+    box-shadow: 5px 5px 0 0 var(--color);
+    border: var(--color) 1px solid;
     transition: all 200ms ease-in-out;
     background: white;
 }
 
 .card:hover, .card--blue {
-    --grey: var(--secondary-blue);
+    --color: var(--theme);
 }
 
 .card__title, .card__tags {
@@ -184,7 +187,7 @@ header {
 .card__pill {
     border-radius: 12px;
     color: white;
-    background: var(--secondary-blue);
+    background: var(--theme);
     padding: 5px 10px;
     font-size: 12px;
     letter-spacing: 1px;
