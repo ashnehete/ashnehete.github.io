@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Aashish Nehete</title>
 
@@ -20,19 +20,23 @@
 </head>
 
 <body>
+<div>
     <div class="parent">
         <div class="left">
             <span class="username text--gradient">ashnehete</span>
             <span class="name">Aashish Nehete</span>
-            <p class="about">MSCS'24 at University of Massachusetts Amherst</p>
+            <p class="about">
+                Platform Engineer at
+                <strong><a href="https://akunacapital.com/" target="_blank">Akuna Capital</a></strong>
+            </p>
             <p class="about">I am a unique combination of frontend and infrastructure engineer who dabbles with the
                 backend from time to time.</p>
             <div class="links">
                 <a href="/resume/Aashish%20Nehete%20Resume.pdf" target="_blank" class="slash">resume</a>
-                <a href="/software" class="slash">software</a>
+                <a href="#software" class="slash">software</a>
                 <a href="https://thelogobaker.tumblr.com/" target="_blank" class="slash">design</a>
-                <a href="/writing" class="slash">writing</a>
-                <a href="/film" class="slash">film</a>
+                <a href="#writing" class="slash">writing</a>
+                <a href="#film" class="slash">film</a>
             </div>
         </div>
         <div class="right">
@@ -42,9 +46,192 @@
     <footer>
         <a href="http://github.com/ashnehete/" target="_blank"><img src="/assets/github.svg" alt="github.com"></a>
         <a href="https://www.linkedin.com/in/ashnehete/" target="_blank"><img src="/assets/linkedin.svg"
-                alt="linkedin.com"></a>
+                                                                              alt="linkedin.com"></a>
         <a href="mailto:hello@ashnehete.in" target="_blank"><img src="/assets/email.svg" alt="gmail.com"></a>
     </footer>
-</body>
+</div>
 
+<section id="software">
+    <header>
+        <a class="header__back" href="#">&larr;</a>
+        <span class="header__title slash text--gradient">software</span>
+        <a href="http://github.com/ashnehete" target="_blank" class="header__subtitle">github.com/ashnehete</a>
+    </header>
+    <div class="parent">
+        <a href="https://github.com/malhal/Laravel-Geographical" target="_blank" class="card">
+            <h3 class="card__title">Laravel-Geographical</h3>
+            <div class="card__tags">
+                <span class="card__pill">PHP</span>
+                <span class="card__pill">Open Source</span>
+            </div>
+            <p class="card__info">Contributor to a popular Laravel package to easily add longitude and latitude columns
+                to
+                models and use inherited functionality for calculating distances.</p>
+        </a>
+        <a href="/mapreducejs/" target="_blank" class="card">
+            <h3 class="card__title">mapreducejs</h3>
+            <div class="card__tags">
+                <span class="card__pill">JS</span>
+                <span class="card__pill">Big Data</span>
+            </div>
+            <p class="card__info">A simple interactive tutorial in JavaScript to understand the concept of
+                MapReduce.</p>
+        </a>
+        <a href="/fluent-poetry/" target="_blank" class="card">
+            <h3 class="card__title">Fluent Poetry</h3>
+            <div class="card__tags">
+                <span class="card__pill">JS</span>
+                <span class="card__pill">Fluent UI</span>
+            </div>
+            <p class="card__info">I tried my hand at Fluent UI by Microsoft to immortalise Steps of a Ladder, a
+                collection
+                of my poems.</p>
+        </a>
+        <a href="https://people.umass.edu/acharris/" target="_blank" class="card">
+            <h3 class="card__title">Alice Harris</h3>
+            <div class="card__tags">
+                <span class="card__pill">HTML</span>
+                <span class="card__pill">CSS</span>
+            </div>
+            <p class="card__info">Personal Website for Prof. Alice Harris.</p>
+        </a>
+    </div>
+    <footer class="links">
+        <a href="/software" class="slash">more</a>
+    </footer>
+</section>
+
+<section id="writing">
+    <header>
+        <a class="header__back" href="#">&larr;</a>
+        <span class="header__title slash text--gradient">writing</span>
+    </header>
+    <div class="parent">
+        <a href="https://medium.com/workindia-in/i-deleted-a-database-in-production-be78f1211b93" target="_blank"
+           class="card">
+            <h3 class="card__title">I Deleted a Database in Production</h3>
+            <div class="card__tags">
+                <span class="card__pill">Software Engineering</span>
+            </div>
+            <p class="card__info">
+                And I had no backup...
+            </p>
+        </a>
+        <a href="https://medium.com/workindia-in/django-behind-a-proxy-fefa91d337fd" target="_blank" class="card">
+            <h3 class="card__title">Django Behind a Proxy</h3>
+            <div class="card__tags">
+                <span class="card__pill">Software Engineering</span>
+            </div>
+            <p class="card__info">
+                Some configuration gotchas when running Django behind a proxy.
+            </p>
+        </a>
+        <a href="https://ashnehete.in/what-the-heck-is/" target="_blank"
+           class="card">
+            <h3 class="card__title">What the Heck is?</h3>
+            <div class="card__tags">
+                <span class="card__pill">General</span>
+            </div>
+            <p class="card__info">
+                A series of introductions for famous topics in this world.
+            </p>
+        </a>
+        <a href="https://medium.com/workindia-in/writing-a-getting-started-tutorial-f6314fd2683e" target="_blank"
+           class="card">
+            <h3 class="card__title">Writing a Getting Started Tutorial</h3>
+            <div class="card__tags">
+                <span class="card__pill">Software Engineering</span>
+            </div>
+            <p class="card__info">
+                A guide on documenting code projects.
+            </p>
+        </a>
+        <a href="https://medium.com/@ashnehete/faster-fene-a-new-dawn-for-marathi-cinema-534b301aab87" target="_blank"
+           class="card">
+            <h3 class="card__title">Faster Fene: A New Dawn for Marathi Cinema</h3>
+            <div class="card__tags">
+                <span class="card__pill">Review</span>
+            </div>
+            <p class="card__info">
+                And I had no backup...
+            </p>
+        </a>
+
+        <a href="https://www.wattpad.com/user/ashnehete" target="_blank"
+           class="card">
+            <h3 class="card__title">Other Stories and Poems on Wattpad</h3>
+            <div class="card__tags">
+                <span class="card__pill">General</span>
+            </div>
+            <p class="card__info">
+
+            </p>
+        </a>
+
+    </div>
+</section>
+
+<section id="film">
+    <header>
+        <a class="header__back" href="#">&larr;</a>
+        <span class="header__title slash text--gradient">film</span>
+    </header>
+    <div class="parent">
+        <a href="#" class="card">
+            <h3 class="card__title">True Friends</h3>
+            <div class="card__tags">
+                <span class="card__pill">Animation</span>
+                <span class="card__pill">Music</span>
+            </div>
+            <div class="card__info">
+                <iframe width="100%" src="https://www.youtube-nocookie.com/embed/BgIO7tXVvI8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </a>
+        <a href="#" class="card">
+            <h3 class="card__title">Game of Thrones Theme</h3>
+            <div class="card__tags">
+                <span class="card__pill">Editor</span>
+            </div>
+            <div class="card__info">
+                <iframe width="100%" src="https://www.youtube-nocookie.com/embed/V2PTURmWJ_w"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </a>
+        <a href="#" class="card">
+            <h3 class="card__title">Sage - Ritviz | Kathak Dance Cover</h3>
+            <div class="card__tags">
+                <span class="card__pill">Editor</span>
+            </div>
+            <div class="card__info">
+                <iframe width="100%" src="https://www.youtube-nocookie.com/embed/BV8Y-pSpgVg"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </a>
+        <a href="#" class="card">
+            <h3 class="card__title">Hyderabad - A Tourist POV</h3>
+            <div class="card__tags">
+                <span class="card__pill">Director</span>
+                <span class="card__pill">Editor</span>
+            </div>
+            <div class="card__info">
+                <iframe width="100%" src="https://www.youtube-nocookie.com/embed/aiA7nhK-dj4"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </a>
+    </div>
+</section>
+</body>
 </html>

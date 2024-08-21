@@ -21,10 +21,36 @@
 
 html {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
     background: var(--theme-lightest);
+}
+
+section {
+    margin: 200px 0;
+}
+
+#software {
+    --theme-value: 102, 158, 253;
+    --theme: rgb(var(--theme-value));
+    --theme-light: rgba(var(--theme-value), 0.4);
+    --theme-lightest: rgba(var(--theme-value), 0.05);
+}
+
+#writing {
+    --theme-value: 17, 106, 123;
+    --theme: rgb(var(--theme-value));
+    --theme-light: rgba(var(--theme-value), 0.4);
+    --theme-lightest: rgba(var(--theme-value), 0.05);
+}
+
+#film {
+    --theme-value: 253, 122, 102;
+    --theme: rgb(var(--theme-value));
+    --theme-light: rgba(var(--theme-value), 0.4);
+    --theme-lightest: rgba(var(--theme-value), 0.05);
 }
 
 a {
@@ -125,6 +151,7 @@ footer {
     align-items: center;
     gap: 20px;
     padding-bottom: 50px;
+    font-size: 52px;
 }
 
 footer img {
